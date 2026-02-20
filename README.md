@@ -3,38 +3,38 @@ Source file: Sales Raw Data.csv
 
 
 Dataset Summary:
-Total Rows: 3,900
-Total Columns: 18
-Missing Values: 37 null values in the Review Rating column
+Total Rows: 3,900.
+Total Columns: 18.
+Missing Values: 37 null values in the Review Rating column.
 
 
 Key Features:
-Demographics
-Age
-Gender
-Location
-Subscription Status
-Purchase Details
-Item Purchased
-Category
-Purchase Amount
-Season
-Size
-Color
-Shopping Behavior
-Discount Applied
-Promo Code Used
-Previous Purchases
-Frequency of Purchases
-Review Rating
+Demographics,
+Age,
+Gender,
+Location,
+Subscription Status,
+Purchase Details,
+Item Purchased,
+Category,
+Purchase Amount,
+Season,
+Size,
+Color,
+Shopping Behavior,
+Discount Applied,
+Promo Code Used,
+Previous Purchases,
+Frequency of Purchases,
+Review Rating,
 Shipping Type
 
 
 Tools Used:
-Python (Pandas, Matplotlib/Seaborn)
-PostgreSQL
-Power BI
-Gamma (Presentation)
+Python (Pandas, Matplotlib/Seaborn),
+PostgreSQL,
+Power BI,
+Gamma (Presentation),
 Jupyter Notebook / VS Code
 
 
@@ -57,12 +57,12 @@ Business questions were answered using structured SQL queries.
 
 
 Visualizations Included:
-Revenue by Category
-Sales by Category
-Revenue by Age Group
-Sales by Age Group
-Subscription Status Distribution
-Shipping Type Analysis
+Revenue by Category,
+Sales by Category,
+Revenue by Age Group,
+Sales by Age Group,
+Subscription Status Distribution,
+Shipping Type Analysis,
 The dashboard enables filtering by category, gender, shipping type, and subscription status for dynamic business analysis.
 
 
@@ -82,28 +82,22 @@ Highlight top-rated and best-selling products in campaigns.
 
 
 How to Run This Project:
+
 Clone the repository
-git clone https://github.com/your-username/customer-shopping-analysis.git
+
+git clone https://github.com/ts834926/customer_behavior_analytics
+
 Install required libraries
-pip install pandas matplotlib seaborn psycopg2
+
 Run the Python notebook/script for cleaning and EDA.
-Create a PostgreSQL database and import the cleaned dataset.
+
+Create a MySQL database and import the cleaned dataset.
+
 Execute SQL queries provided in the project.
+
 Open the Power BI .pbix file and refresh the data connection.
-
-
-Project Structure:
-Customer-Shopping-Behavior-Analysis/
-│
-├── Sales Raw Data.csv
-├── python_notebook.ipynb
-├── sql_queries.sql
-├── Customer Shopping Behavior Analysis.pdf
-├── Customer-Shopping-Behavior-Analysis.pptx
-├── powerbi_dashboard.pbix
-└── README.md
 
 
 Author:
 Tarun Sharma
-Data Analyst
+(Data Analyst)
